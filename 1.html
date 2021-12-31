@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Resume</title>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/sidebar.html"><img src="" alt=""> NISARG WATH <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor" class="bi bi-hypnotize" viewBox="0 0 16 16">
+         <path d="m7.949 7.998.006-.003.003.009-.01-.006Zm.025-.028v-.03l.018.01-.018.02Zm0 .015.04-.022.01.006v.04l-.029.016-.021-.012v-.028Zm.049.057v-.014l-.008.01.008.004Zm-.05-.008h.006l-.006.004v-.004Z"/>
+         <path fill-rule="evenodd" d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM4.965 1.69a6.972 6.972 0 0 1 3.861-.642c.722.767 1.177 1.887 1.177 3.135 0 1.656-.802 3.088-1.965 3.766 1.263.24 2.655-.815 3.406-2.742.38-.975.537-2.023.492-2.996a7.027 7.027 0 0 1 2.488 3.003c-.303 1.01-1.046 1.966-2.128 2.59-1.44.832-3.09.85-4.26.173l.008.021.012-.006-.01.01c.42 1.218 2.032 1.9 4.08 1.586a7.415 7.415 0 0 0 2.856-1.081 6.963 6.963 0 0 1-1.358 3.662c-1.03.248-2.235.084-3.322-.544-1.433-.827-2.272-2.236-2.279-3.58l-.012-.003c-.845.972-.63 2.71.666 4.327a7.415 7.415 0 0 0 2.37 1.935 6.972 6.972 0 0 1-3.86.65c-.727-.767-1.186-1.892-1.186-3.146 0-1.658.804-3.091 1.969-3.768l-.002-.007c-1.266-.25-2.666.805-3.42 2.74a7.415 7.415 0 0 0-.49 3.012 7.026 7.026 0 0 1-2.49-3.018C1.87 9.757 2.613 8.8 3.696 8.174c1.438-.83 3.084-.85 4.253-.176l.005-.006C7.538 6.77 5.924 6.085 3.872 6.4c-1.04.16-2.03.55-2.853 1.08a6.962 6.962 0 0 1 1.372-3.667l-.002.003c1.025-.243 2.224-.078 3.306.547 1.43.826 2.269 2.23 2.28 3.573L8 7.941c.837-.974.62-2.706-.673-4.319a7.415 7.415 0 0 0-2.362-1.931Z"/>
+       </svg></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          
+          <div class="d-flex flex-column flex-shrink-0 p-3 " style="width: 280px;">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+              <span class="fs-4">Menu</span>
+            </a>
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
+              
+              <li>
+                <a href="/sidebar.html" class="nav-link link-dark my-3">
+                  <svg class="bi me-2" width="16" height="16"><use xlink:href="/"></use></svg>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="/intro.html" class="nav-link link-dark my-3">
+                  <svg class="bi me-2" width="16" height="16"><use xlink:href="/intro.html"></use></svg>
+                  My Intro
+                </a>
+              </li>
+              <li>
+                <a href="/contact.html" class="nav-link link-dark my-3">
+                  <svg class="bi me-2" width="16" height="16"><use xlink:href="/contact.html"></use></svg>
+                  Contact Us
+                </a>
+              </li>
+              <li>
+                <a href="/blog.html" class="nav-link link-dark my-3">
+                  <svg class="bi me-2" width="16" height="16"><use xlink:href="/blog.html"></use></svg>
+                  Blogs
+                </a>
+              </li>
+            </ul>
+            <hr>
+            <div class="dropdown my-3">
+              <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                <strong>mdo</strong>
+              </a>
+              <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+               
+                <li><button type="button" class="btn text-center mx-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                     Email Us
+                </button>
+                </li>
+                <li> 
+                  <button class="btn  mx-5" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Call us</button>
+                
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+   <!-- NAVBAR  -->
+  <!-- Button trigger modal -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Email ID</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          nisargwath7@gmail.com
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalToggleLabel2">Phone number</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         9922093488
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<br>
+<!-- jow? -->
+<div class="container my-3">
+  <br>
+<div class="blog my-4"><p>When most think of coding, fun probably is not a word that comes to mind. Coding has come a long way in recent years and is much more user and kid-friendly. We want to help get you and your child excited about <a href="https://www.ucode.com/coding-for-kids/what-is-coding.pdf">coding</a>, all the things you can create with it, and where it can take us.&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>Here are some basic and fun facts about coding that you may not know.</p>
+  <p>&nbsp;</p>
+  <h3>Basic Coding Facts</h3>
+  <p>&nbsp;</p>
+  <p>We are including this list of basic coding facts to give you a better understanding of what coding is and how it is used:&nbsp;</p>
+  <p>&nbsp;</p>
+  <ol>
+  <li>
+  <p><strong><a href="https://www.ucode.com/kids-coding/kids-coding.pdf">Coding</a> is essentially a list of instructions for the computer to follow:</strong> think of a recipe or an instruction manual.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>People take everyday language, turn it into code, which is the language computers understand,</strong> and then computers perform the function to make our daily lives easier. Examples of this are phones, tablets, computers, watches, machines, and cars. This list could go on for a while, but this will give you an idea.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>Almost everything powered by electricity</strong> uses some form of coding.</p>
+  </li>
+  <li>
+  <p><strong>People who code are referred to as coders,</strong> programmers, developers, computer scientists, or software engineers.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>Computers use a language called binary </strong>that consists of 1s and 0s, which can be confusing to humans but thankfully, coding languages help make it easier.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>People can understand many different languages,</strong> and so can computers. Here are a few: Java, <a href="https://www.ucode.com/coding-classes-for-kids/python-for-kids.pdf">Python</a>, JavaScript, C, C++, Perl, Visual Basic, and PHP.</p>
+  </li>
+  <li>
+  <p><strong>There are “low-level” and “high-level” languages.</strong> Low-level languages are more confusing and resemble binary, but high-level languages resemble human language and are easier to code in.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>Think about learning to code&nbsp;</strong>as learning a new language like Spanish (with symbols and letter you know) or Chinese (with symbols you have to learn).&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>High-level languages </strong>are more popularly used today.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>An example of a popular low-level language is C,</strong> which is used for graphic-heavy applications like game development.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>For web design, use JavaScript,</strong> an easy to use scripting language.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>Perl is sometimes referred to as the “swift-army-knife” </strong>of coding because of its versatility.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>Most coding languages</strong> use similar basic features.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>A program is a text file written in a coding language;</strong> think of it as an instruction manual.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>There are many ways to get started in coding,</strong> like games, apps, books, courses, and bootcamps.&nbsp;</p>
+  </li>
+  </ol>
+  <p>&nbsp;</p>
+  <p>We hope this gives you a good idea of what coding is, some basic functions, and what coding is used for. Coding is involved in more ways than we can even imagine in our modern world, and the sky's the limit.&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>If your child can imagine it, they can create it through computer programming.&nbsp;</p>
+  <p><br>
+  &nbsp;</p>
+  <h3>Fun Coding Facts</h3>
+  <p>&nbsp;</p>
+  <p>Now that you know the basic facts, let’s look at the fun ones and all the exciting things you may not know about coding.&nbsp;</p>
+  <p>&nbsp;</p>
+  <ol>
+  <li>
+  <p><strong>Many of the people who built the technology we use every day and love started out by playing <a href="https://www.ucode.com/coding-classes-for-kids-intermediate/minecraft-doesnot-teach-kids-to-code.pdf">games</a>.</strong> Steve Jobs and Steve Wozniak, the co-founders of Apple, were teenagers when their coding careers took off with the creation of the game Breakout.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>The very first computer programmer was a woman named Ava Lovelace, who created a program for an Analytical Engine.&nbsp;</strong> She was the first to describe the algorithms as Bernoulli numbers, and the algorithms are considered to be the first designed for computer implementation.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>Most webpages are built using more than one language;</strong> for instance, an email webpage is created using HTML, JavaScript, and CSS.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>Watch out for malware,</strong> which are programs designed to steal data or break a computer using worms, viruses, or trojans.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>Some coders study malware and are called hackers.</strong> ”Black-hat” hackers create the malware, and “white-hat” hackers code against hackers.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>When a spacecraft is made, they use old-code because it is reliable and familiar.</strong> Creating space crafts with new code would be risky and expensive. NASA’s reusable spacecraft, the Space Shuttle, used less coding than modern-day cell phones.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>Computer games are so popular these days</strong> that the gaming industry is now worth more than the movie industry.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>Minecraft was made by a Swedish programmer named Markus Persson in 2009.</strong> By 2014 it had over 100 million registered users and was worth $2.5 billion.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>Machines were the first inventions that used codes long before computers were ever invented.</strong> In 1801, a French weaver named Joseph Jacquard invented a power loom using punched wooden cards to design the base of a fabric.</p>
+  </li>
+  <li>
+  <p><strong>In the 1830s, the Analytic Engine was invented by Charles Babbage, the father of computing. The device was as large as a house, was powered by six steam engines, and used punch cards to program the machine.</strong> It had four parts: the mill (analogous to CPU), the store (analogous to memory and storage), the reader (input), and the printer (output). Although it never really worked due to conflicts with the main engineer, the punch card reader was innovative and had three parts: the operation cards, the number cards, and the variable cards.</p>
+  </li>
+  <li>
+  <p><strong>The first time a computer was “debugged,” it was in a literal sense because a moth had been caught in a relay and hindered the computer’s function. </strong>Although inventor Thomas Edison had used the word “bug” to describe a technical error in 1878, Grace Hopper in 1947 made the term popular when she noted “debugging” the system after removing the moth.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>The first-ever computer game, Spacewar, created in 1962, never made any money.</strong> Steve Russell and a team of programmers took 200 hours to create it, but they never copyrighted it and would share the code with anyone who asked.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>The first computer virus was created in 1983 by Fred Cohen to prove it was possible but not to actually harm computers.</strong> A positive virus was then created to find uninfected executables, compress them, and attach itself to them with the user’s permission.&nbsp;</p>
+  </li>
+  <li>
+  <p><strong>There are around 698 computer languages</strong> including old and current ones used today.</p>
+  </li>
+  </ol>
+  <p>&nbsp;</p>
+  <p>We hope you enjoyed learning some fun facts you may not have known about coding and computer programming. It has come a very long way, and there are so many interesting facts.</p>
+  <p><br>
+  &nbsp;</p>
+  <p><strong><big>Conclusion</big></strong>&nbsp;&nbsp;</p>
+  <p>Coding, which was once thought to be mundane and too complicated for an average person, has transformed into a fun useful skill anyone, including children, can learn. Talk to your kids about the history of coding, fun facts, what coding is, and let them see all the fun things they can create.&nbsp;&nbsp;</p>
+  <p>You can see just since coding was invented how quickly it has transformed into a vital aspect of the world we know and technology we love. Our kids are the future, and computer programming will only continue to drive the world. Get your kids interested and plugged into coding courses so that they could be the inventors and programmers of tomorrow.&nbsp;</p>
+  <p>Check out <a href="https://www.ucode.com">Ucode</a>’s coding courses designed for any skill level, caters to a broad age range, and teaches a variety of languages. Our live interactive courses will give your child the structured fun learning environment they need to thrive. <a href="https://www.ucode.com/start-here-course">Get them started with a free class today</a>!</p>
+  <p><br>
+  &nbsp;</p>
+  <p><big><strong>Sources:&nbsp;</strong></big></p>
+  <ul>
+  <li><a href="https://www.dailytekk.com/blog/2018/4/12/what-is-coding-15-facts-for-beginners">https://www.dailytekk.com/blog/2018/4/12/what-is-coding-15-facts-for-beginners</a></li>
+  <li><a href="https://www.dkfindout.com/us/explore/eight-cool-facts-about-computer-coding/">https://www.dkfindout.com/us/explore/eight-cool-facts-about-computer-coding/</a></li>
+  <li><a href="https://thenextweb.com/insider/2016/02/26/8-facts-every-computer-programmer-should-know/">https://thenextweb.com/insider/2016/02/26/8-facts-every-computer-programmer-should-know/</a></li>
+  </ul>
+  <p><br>
+  <br>
+  <br>
+  &nbsp;</p>
+  </div>
+</div>
+
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark">
+  <div class="col-md-4 d-flex align-items-center">
+    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+      <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+    </a>
+    <span class="text-muted">© 2021 Nisarg Wath</span>
+  </div>
+
+  <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+    <li class="ms-3"><a class="text-muted" href="https://github.com/NisargWath"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+    </svg></a></li>
+    <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/nisarg-wath-5ab833219/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+    </svg></a></li>
+    <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+  </ul>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+   
+  </body>
+</html>

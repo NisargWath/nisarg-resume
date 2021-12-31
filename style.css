@@ -1,0 +1,9 @@
+h1, h2, h5, p{
+   font-family: 'Bebas Neue', cursive;
+   font-size: 33px;
+   font-weight: bold;
+}
+.container{
+   width: 100%;
+   background: url(home.jpg)no-repeat center center/cover;
+}

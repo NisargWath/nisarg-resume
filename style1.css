@@ -1,0 +1,132 @@
+h1, h2,  h5{
+   font-family: 'Bebas Neue', cursive;
+   font-size: 33px;
+   font-weight: bold;
+}
+p{
+   font-family: 'Luxurious Roman', cursive;
+}
+h3{
+   font-family: 'Bebas Neue', cursive;
+   font-size: 28px;
+}
+.bars{
+   display: grid;
+   height: 100%;
+   place-items: left;
+   
+}
+.skillbar{
+   width: 300px;
+   background: #fff;
+   border-radius: 10px;
+   padding: 25px 30px;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.skillbar .bar{
+   margin: 20px 0;
+}
+.skillbar .bar:first-child{
+   margin:  0;
+}
+.skillbar .bar .info {
+  margin-bottom: 5px;
+}
+.skillbar .bar .info span{
+   font-size: 17px;
+   font-weight: 500;
+}
+.skillbar .bar .next-line{
+   height: 10px;
+   position: relative;
+   width: 35%;
+   background: #f0f0f0;
+ 
+   transform: scaleX(0);
+   transform-origin: left;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.05),
+                     0px 1px rgba(255,255,255,0.8);
+  animation: animate 2s cubic-bezier(1,0,0.5,1)forwards ;
+}
+@keyframes animate{
+   100%{
+      transform: scaleX(3);
+   }
+}
+
+.bar .next-line span{
+   height: 100%;
+   width: 35%;
+   background: #6665ee;
+   position: absolute;
+   border-radius: 3px;  
+   
+}
+
+.next-line.html span{
+   width: 90%;s
+   }
+   .next-line.css span{
+   width: 85%;
+   }
+   .next-line.java span{
+   width: 50%;
+   }
+   .next-line.react span{
+   width: 35%;
+   }
+   .next-line.python span{
+   width: 65%;   }
+
+ .bar .next-line span::before{
+   position: absolute;
+   content: "";
+   right: 0;
+   top: -10px;
+   height: 0;
+   width: 0;
+   border: 1px solid transparent;
+   border-bottom-width:0px ;
+   border-right-width: 0px;
+   border-top-color: rgb(155, 111, 111);
+   opacity: 0;
+   animation: showText2 0.5s 1.5s linear forwards;
+}
+.bar .next-line span::after{
+   position: absolute;
+   content: "80%";
+   right: 0;
+   top: -10px;
+   color: #fff;
+   font-weight: 400;
+   font-size: 8px;
+   /* padding: 1px 8px; */
+   border-radius: 2px;
+   background: rgb(155, 111, 111);
+   opacity: 0;
+   animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2{
+   100%{
+      opacity: 1;
+   }
+}
+.next-line.html span::after{
+content: "90%";
+}
+.next-line.css span::after{
+content: "85%";
+}
+.next-line.java span::after{
+content: "50%";
+}
+.next-line.react span::after{
+content: "35%";
+}
+.next-line.python span::after{
+content: "65%";
+}
+
+
+
+
